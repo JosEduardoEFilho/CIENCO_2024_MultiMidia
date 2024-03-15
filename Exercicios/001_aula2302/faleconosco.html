@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Pessoal</title>
+    <link rel="icon" type="image/x-icon" href="image/img02.jpg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="fale">
+    <div>
+        <hr>
+        <br>
+        <!--Criando Menus-->
+        <nav>
+            <a href="index.html">HOME</a> |
+            <a href="curriculo.html">CURRICULO</a> |
+            <a href="viagens.html">VIAGENS</a> |
+            <a href="faleconosco.html">FALE CONOSCO</a>
+        </nav>
+        <br>
+        <hr>
+    </div>
+    <div>
+        <p>
+            <div>
+                <h1 class="formatacaoPadrao">Cadastro completo de visitantes</h1>
+                <!-- h1 é tag de cabeçalho-->
+                
+                <div>
+                  <form action="cadastrovisitante.com/php" method="post">
+                    <p>
+                      <label for="nome"
+                        >Nome do visitante*:
+                        <input
+                          type="text"
+                          name="nome"
+                          id="nome"
+                          maxlength="50"
+                          size="40"
+                          placeholder="Digite seu nome completo"
+                          required
+                        />
+                      </label>
+                    </p>
+          
+                    <p>
+                      <label for="usuario"
+                        >Usuário*:
+                        <input
+                          type="text"
+                          name="usuario"
+                          id="usuario"
+                          maxlength="20"
+                          size="40"
+                          placeholder="Digite seu usuário"
+                          required
+                        />
+                      </label>
+                    </p>
+          
+                    <p>
+                      <label for="nome">Senha*:</label>
+                      <input
+                        type="password"
+                        name="senha"
+                        id="senha"
+                        maxlength="10"
+                        size="40"
+                        placeholder="Digite sua senha"
+                        required
+                      />
+                    </p>
+          
+                    <p>
+                      <label for="telres">Telefone Residencial:</label>
+                      <input
+                        type="telres"
+                        id="telres"
+                        maxlength="13"
+                        size="40"
+                        placeholder="(xx)xxxx-xxxx"
+                      />
+                      <label for="telcel">Telefone Celular</label>
+                      <input
+                        type="tel"
+                        name="telcel"
+                        id="telcel"
+                        maxlength="14"
+                        size="40"
+                        placeholder="(xx)xxxxx-xxxx"
+                      />
+                    </p>
+          
+                    <p>
+                      <label for="emmail">E-mail:</label>
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        maxlength="100"
+                        size="100"
+                        placeholder="e-mail@e-mail.com"
+                      />
+                    </p>
+          
+                    <p>
+                      <label for="url">Endereço do Linkedin:</label>
+                      <input type="url" 
+                        name="url"
+                        id="url"
+                        maxlength="100"
+                        size="100"
+                        placeholder="Digite seu Linkedin"
+                      />
+                    </p>
+          
+                    <p>
+                      <label for="idade">Idade:</label>
+                      <input type="number" name="idade" id="idade"
+                      min="14"
+                      max="100">
+                   </p>
+          
+                   <p>
+                      <label for="data">Data de Nascimento:</label>
+                      <input type="date" name="data" id="data" max="2010-01-01" min="1924-12-31">
+                   </p>
+          
+                   <p>
+                      <label for="foto">Foto:</label>
+                      <input type="file" name="data" id="data">
+                   </p>
+          
+                   <p>
+                      <label for="estadocivil">Estado civil:</label>
+                      <input type="radio" name="estadocivil" id="estadocivil" value="casado">Casado
+                      <input type="radio" name="estadocivil" id="estadocivil" value="casado">Divorciado
+                      <input type="radio" name="estadocivil" id="estadocivil" value="casado">Solteiro
+                      <input type="radio" name="estadocivil" id="estadocivil" value="casado">Viúvo
+                   </p>
+          
+                   <p><label for="contato">Como deseja receber o contado: </label>
+                      <input type="checkbox" name="whats" id="contato" value="whats">WhatsApp
+                      <input type="checkbox" name="email" id="contato" value="email">Email
+                      <input type="checkbox" name="telefone" id="contato" value="telefone">Telefone
+                      <input type="checkbox" name="sms" id="contato" value="sms">Sms
+                  </p>
+          
+                  <p>
+                      <label for="pesquisa">O que você deseja pesquisar?</label>
+                      <input type="search" name="pesquisa" id="pesquisa">
+          
+                      <label for="cabelo">Escolha a cor de cabelo:</label>
+                      <input type="color" name="cabelo" id="cabelo">
+                  </p>
+          
+                  <p>
+                      <label for="informacao">Conte sobre você:</label>
+                      <p><textarea name="informacao" id="informacao" cols="50" rows="10" style="resize: none;"></textarea></p>
+                  </p>
+          
+                  <p>
+                      <label for="time">Qual time você torce?</label>
+                      <select name="time" id="time">
+                          <option value="palmeiras">Palmeiras</option>
+                          <option value="corintians">Corinthians</option>
+                          <option value="santos">Santos</option>
+                      </select>
+                  </p>
+          
+                    <div>
+                      <button type="submit" class="formatacaoPadrao" >SALVAR</button>
+                      <button type="reset" class="formatacaoPadrao">LIMPAR</button>
+                      <button type="button" onclick="funcaoTeste(n1, n2)" class="formatacaoPadrao">TESTE</button>
+                  </div>
+                  </form>
+                </div>
+              </div>
+        </p>
+    </div>
+    <div>
+        <hr>
+        <br>
+        <footer>
+            <p>Autor: José Eduardo Elesbão Filho</p>
+            <address>Rua dos Estudantes, s/n, Cachoeira de Cima, Mogi-Guaçu/SP</address>
+            <p><a href="https://www.linkedin.com/in/josé-eduardo-elesbão-filho-283188201" target="_blank">Linkedin</a> |
+                <a href="#" target="_blank">Instagram</a> |
+                <a href="#" target="_blank">Lattes</a> |
+                <a href="#" target="_blank">Facebook</a> |
+                <a href="#" target="_blank">Git Hub</a> |
+                <a href="https://web.whatsapp.com/send?phone=+5519988413788" target="_blank">Whatsapp</a>
+            </p>
+        </footer>
+        <br>
+        <hr>
+    </div>
+</body>
+
+</html>
