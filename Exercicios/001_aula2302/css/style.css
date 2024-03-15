@@ -1,65 +1,85 @@
-body{
+body {
     background-color: rgb(230, 233, 232);
 }
 
-footer{
+footer {
     text-align: center;
 }
 
-nav{
+nav {
     margin-left: 400px;
     margin-right: 60px;
     font-size: 20pt;
 }
 
-p{
+p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
-#redesSociais{
+#redesSociais {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 24px;
 }
 
-#redesSociais:hover{
+#redesSociais:hover {
     font-size: 32px;
 }
 
-.formatacaoPadrao{
+.formatacaoPadrao {
     font-family: 'Times New Roman', Times, serif;
     color: rebeccapurple;
     font-size: 28px;
 
 }
 
-.imagemPadrao{
+.imagemPadrao {
     padding-top: 2%;
     height: 300px;
     width: 500px;
 }
 
-h1{
+h1 {
     color: navy;
 }
 
-#home{
+#home {
     background-color: rgb(230, 233, 232);
 }
-#curriculo{
-    background-color: #8A2BE2;
-}
-#viagens{
-    background-color: rgb(85,107,47);
-}
-#fale{
-    background-color: rgba(0,0,0,0.5);
+
+#curriculo {
+    background-color: #d4d4d4;
 }
 
-#caixa{
+#viagens {
+    /*background-color: rgb(85,107,47);*/
+    background-image: url("https://images.unsplash.com/photo-1564613469739-c78f970f9c17?q=80&w=2047&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    /*background-position: ;*/
+    /*opacity: 0.75;*/
+}
+
+#fale {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#caixa {
     background-color: lightcyan;
     width: 600px;
     border: 10px solid greenyellow;
-    padding: 50px;
-    margin: 20px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 150px;
+    margin-left: 40px;
+    padding-top: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    border-radius: 25px;
+}
+
+#imagemHome {
+    width: 1900px;
+    height: 600px;
 }
